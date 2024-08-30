@@ -1,0 +1,40 @@
+.home-page header {
+    /* background-image: url(src/assets/images/header-img.jpg);
+    background-size: cover; */
+    background-image:url(../assets/images/header-img.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2{
+    text-shadow: 2px 2px 8px #fff;
+}
+
+.main-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(src/assets/images/menu-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    header h1{
+        font-size: 3rem;
+    }
+}
